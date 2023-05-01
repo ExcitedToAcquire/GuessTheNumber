@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guess-The-Number</title>
+    <link rel="stylesheet" href="guess.css"/>
+
+  </head>
+
+  <body class="body">
+    <header>
+      <button id="reset"> Again </button>
+      <p id="NB">    (Number between 1-20)    </p>
+      <H1 id="fontupguess"> Guess My Number!!  </H1>
+      <hr>
+      <div id="secretNumber"> ? </div>
+      <hr>
+      <br>
+      <br>
+      <br>
+      <br>
+    </header>
+  
+    <main>
+      <section class="left">
+        <input type="number" id="input" value=""/>
+        <br>
+        <br>
+        <br>
+        <button id="CheckButton"> Check! </button>
+      </section>
+    
+      <section class="right">
+      
+       <p id="message"> Start Guessing... </p>
+     
+        score: <span id="score" >
+          20
+        </span>
+        <br>
+      
+        Highscore: <span id="Highscore">
+          0
+        </span>
+      </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+      <p id="footer">
+        ...This is Developed by Abhishek...
+      </p>
+    </footer>
+    <<script src="guess.js"></script>
+  </body>
+</html>
